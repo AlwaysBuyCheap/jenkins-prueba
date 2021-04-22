@@ -1,0 +1,8 @@
+#!/bin/bash
+
+ssh -p 32996 pablo@stocknotification.tk <<EOF
+    
+    git pull
+    exit
+EOF
+
